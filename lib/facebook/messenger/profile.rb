@@ -8,7 +8,7 @@ module Facebook
     module Profile
       include HTTParty
 
-      base_uri 'https://graph.facebook.com/v2.6/me'
+      base_uri 'https://graph.facebook.com/v2.8/me'
 
       format :json
 
